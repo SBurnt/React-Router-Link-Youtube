@@ -1,0 +1,58 @@
+.videoListMini {
+	margin: 0 auto;
+	width: 850px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+
+.videoListMiniItem {
+	margin-top: 16px;
+	width: 850px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	cursor: pointer;
+}
+
+#img-block {
+	flex: none;
+	width: 246px;
+	height: 138px;
+	margin-right: 16px;
+	cursor: pointer;
+}
+
+img {
+	display: block;
+	max-height: none;
+	max-width: 100%;
+}
+
+.videoMiniItemInfo {
+	max-width: 600px;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+	margin: 0;
+}
+
+.video-meta-block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.description-text {
+	padding-top: 8px;
+}
