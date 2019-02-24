@@ -1,4 +1,4 @@
-# React-Router-Link-Youtube
+# React-Router-Link-Reflux-Youtube
 
 - Run `npm install` in command line
 - Run `npm start` in command line
