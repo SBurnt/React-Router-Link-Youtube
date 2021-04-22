@@ -39,7 +39,7 @@ class Store extends Reflux.Store {
 		// Math.random().toString(36).slice(-5);
 		// Math.random().toString(36).substr(2, 5);
 
-		axios.get("https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyCHVdJWyLULNovRgf6OIZ7gPos5eVUw0eI&q=" + this.state.searchInput + "&type=video")
+		axios.get("https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyBcpMgRXgZ04YDspTwhV0k81OMOB-I8Ypw&q=" + this.state.searchInput + "&type=video")
 			.then((result) => {
 				// console.log("axios", result);
 				this.setState({ allVideoMini: result.data.items });
